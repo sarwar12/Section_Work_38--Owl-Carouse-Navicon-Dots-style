@@ -1,0 +1,162 @@
+/* Main CSS Start */
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+body{
+	font-family: ;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+a:hover{
+	text-decoration: none;
+}
+/* Main CSS Stop */
+/* Header Section Start */
+		/* logo Side Start */
+.logo img {
+	max-width: 100px;
+	height: 70px;
+	position: absolute;
+	left: 0;
+	top: 15px;
+}
+.logo a {
+  color: #333;
+}
+.logo {
+  font-size: 20px;
+  font-weight: 700;
+  position: relative;
+  padding-left: 120px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.logo span {
+  display: block;
+  font-size: 80%;
+  font-style: italic;
+  font-weight: 400;
+}
+		/* logo Side Stop */
+.right-content-box {
+	font-size: 20px;
+	position: relative;
+	display: inline-block;
+	text-align: left;
+	padding-left: 30px;
+	margin-left: 40px;
+	margin-top: 15px;
+}
+.right-content-box i {
+	position: absolute;
+	left: 0;
+	top: 2px;
+	font-size: 30px;
+}
+.right-content-box a {
+  color: #333;
+}
+.header-area {
+  padding: 25px 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+/* Header Section Stop */
+/* Slider Section Start */
+.single-slide-item{
+	background-image: url(../img/bg-1.jpg);
+	background-size:cover ;
+	background-position: center;
+}
+.single-slide-item.bg-slide-2{
+	background-image: url(../img/bg-2.jpg);
+}
+.single-slide-item.bg-slide-3{
+	background-image: url(../img/bg-3.jpg);
+}
+.single-slide-item {
+  padding-top: 200px;
+  padding-bottom: 100px;
+  background-color: #ddd;
+}
+.slide-text {
+  position: relative;
+  z-index: 1;
+  font-size: 20px;
+  padding-left: 75px;
+  padding-right: 100px;
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+.slide-text:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  z-index: -1;
+  opacity: .5;
+}
+.slide-text h2 {
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+.boxed-btn {
+  background-color: #ef800d;
+  color: #fff;
+  padding: 12px 20px;
+  display: inline-block;
+  border-radius: 3px;
+}
+.slide-text .boxed-btn {
+  margin-top: 30px;
+}
+/* Owl Nav & Dots Work*/
+.homepage-slides .owl-nav button {
+  position: absolute;
+  left: 50px;
+  top: 50%;
+  font-size: 50px;
+  line-height: 60px;
+  margin-top: -30px;
+  opacity: 0;
+  transition: .3s;
+}
+.homepage-slides .owl-nav button.owl-next {
+  left: auto;
+  right: 50px;
+}
+.homepage-slides:hover .owl-nav button {
+  opacity: .5;
+}
+.homepage-slides .owl-dots button {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  background: #333;
+  margin: 5px;
+  border-radius: 50%;
+}
+.homepage-slides .owl-dots button.active {
+  background: #E00205;
+}
+.homepage-slides .owl-dots {
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+  text-align: center;
+  width: 100%;
+}
+/* Slider Section Stop */
